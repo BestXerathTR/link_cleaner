@@ -73,6 +73,7 @@ browser.webRequest.onBeforeRequest.addListener(
         "*://*.amazon.com.mx/d/*",
         "*://*.amazon.com.au/d/*",
         "*://*.amazon.com.br/d/*",
+		"*://*.amazon.com.tr/d/*",
 
         "*://*.amazon.com/dp/*",
         "*://*.amazon.ca/dp/*",
@@ -86,6 +87,7 @@ browser.webRequest.onBeforeRequest.addListener(
         "*://*.amazon.com.mx/dp/*",
         "*://*.amazon.com.au/dp/*",
         "*://*.amazon.com.br/dp/*",
+		"*://*.amazon.com.tr/dp/*",
 
         "*://*.amazon.com/gp/aw/d/*",
         "*://*.amazon.ca/gp/aw/d/*",
@@ -99,6 +101,7 @@ browser.webRequest.onBeforeRequest.addListener(
         "*://*.amazon.com.mx/gp/aw/d/*",
         "*://*.amazon.com.au/gp/aw/d/*",
         "*://*.amazon.com.br/gp/aw/d/*",
+		"*://*.amazon.com.tr/gp/aw/d/*",
 
 
         "*://*.amazon.com/*/dp/*",
@@ -113,6 +116,7 @@ browser.webRequest.onBeforeRequest.addListener(
         "*://*.amazon.com.mx/*/dp/*",
         "*://*.amazon.com.au/*/dp/*",
         "*://*.amazon.com.br/*/dp/*",
+		"*://*.amazon.com.tr/*/dp/*",
 
         "*://*.amazon.com/gp/product/*",
         "*://*.amazon.ca/gp/product/*",
@@ -126,6 +130,7 @@ browser.webRequest.onBeforeRequest.addListener(
         "*://*.amazon.com.mx/gp/product/*",
         "*://*.amazon.com.au/gp/product/*",
         "*://*.amazon.com.br/gp/product/*",
+		"*://*.amazon.com.tr/gp/product/*",
     ], types: ["main_frame"]},
     ["blocking"]
 );
